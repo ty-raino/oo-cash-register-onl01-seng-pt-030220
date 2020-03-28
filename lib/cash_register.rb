@@ -37,7 +37,7 @@ class CashRegister
       self.total -= self.transaction[1]
     end
   end
-  
+
   attr_accessor :discount, :total, :items
 
   def initialize(discount = 0)
