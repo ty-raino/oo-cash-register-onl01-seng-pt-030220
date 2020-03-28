@@ -1,5 +1,5 @@
 class CashRegister
-<<<<<<< HEAD
+
   attr_accessor :discount, :purchases, :total, :transaction
 
   def initialize(discount=nil)
@@ -37,7 +37,7 @@ class CashRegister
       self.total -= self.transaction[1]
     end
   end
-=======
+  
   attr_accessor :discount, :total, :items
 
   def initialize(discount = 0)
@@ -65,5 +65,5 @@ end
 
 
 
->>>>>>> 18e3d507c5867877ac602f858fc2c0645acbe14b
+
 end
